@@ -244,8 +244,12 @@ nav.scrolled {
 
 /* LOGO - MASSIVE AND ICONIC */
 .hero-logo {
-  width: 280px;
-  height: 280px;
+    width: 220px;
+    height: 220px;
+    object-fit: contain;
+    margin-bottom: 40px;
+    filter: drop-shadow(0 20px 40px rgba(212,165,116,.4));
+};
   margin-bottom: 40px;
   filter: drop-shadow(0 20px 40px rgba(212, 165, 116, 0.4));
   animation: logoFloat 6s ease-in-out infinite;
