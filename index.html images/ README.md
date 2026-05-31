@@ -197,11 +197,18 @@ nav.scrolled {
 }
 
 .hero-bg-image {
-  position: absolute;
-  inset: 0;
-  background: linear-gradient(135deg, #0a0e27 0%, #1a2447 50%, #0f1838 100%);
-  z-index: 0;
-  opacity: 0.9;
+    position: absolute;
+    inset: 0;
+    background:
+    linear-gradient(
+        rgba(0,0,0,0.55),
+        rgba(0,0,0,0.55)
+    ),
+    url('images/banner.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    z-index: 0;
 }
 
 .hero-bg-image::after {
